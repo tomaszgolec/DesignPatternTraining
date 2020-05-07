@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrincip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{7018000D-D8C9-4CB0-9F79-B07AC877E604}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{844081EF-1DBD-448E-AD69-D1FD774B539C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{0D92489A-709D-406A-9689-AC20AEEDDF3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,10 +49,10 @@ Global
 		{7018000D-D8C9-4CB0-9F79-B07AC877E604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7018000D-D8C9-4CB0-9F79-B07AC877E604}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7018000D-D8C9-4CB0-9F79-B07AC877E604}.Release|Any CPU.Build.0 = Release|Any CPU
-		{844081EF-1DBD-448E-AD69-D1FD774B539C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{844081EF-1DBD-448E-AD69-D1FD774B539C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{844081EF-1DBD-448E-AD69-D1FD774B539C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{844081EF-1DBD-448E-AD69-D1FD774B539C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D92489A-709D-406A-9689-AC20AEEDDF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D92489A-709D-406A-9689-AC20AEEDDF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D92489A-709D-406A-9689-AC20AEEDDF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D92489A-709D-406A-9689-AC20AEEDDF3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,7 +63,7 @@ Global
 		{DDF28049-10FE-46A9-99C0-E773F98D87EE} = {9DCCF51A-843C-44EA-80A1-7D05AFAC38DC}
 		{B3E84C34-7651-4109-AC95-5C78F768E7DD} = {9DCCF51A-843C-44EA-80A1-7D05AFAC38DC}
 		{7018000D-D8C9-4CB0-9F79-B07AC877E604} = {9DCCF51A-843C-44EA-80A1-7D05AFAC38DC}
-		{844081EF-1DBD-448E-AD69-D1FD774B539C} = {6A332E5A-4629-4FAF-8E9C-3F218154EEC3}
+		{0D92489A-709D-406A-9689-AC20AEEDDF3E} = {6A332E5A-4629-4FAF-8E9C-3F218154EEC3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7D5D5CF-BF42-4AA3-B580-8A9C9B38E28E}
