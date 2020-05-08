@@ -30,6 +30,9 @@ namespace BuilderPattern
 
             private string ToStringImpl(int indent)
             {
+                List<string > fdsf = new List<string>();
+                fdsf.Add("d");
+
                 var sb = new StringBuilder();
                 var i = new string(' ', indentSize * indent);
                 sb.Append($"{i}<{Name}>");
