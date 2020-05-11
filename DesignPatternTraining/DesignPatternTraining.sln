@@ -47,7 +47,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test2", "Test2\Test2.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{2073A0D5-238D-49D4-B222-9530F6507BCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prorotype", "Prorotype\Prorotype.csproj", "{BDAF8B57-F887-4754-957E-39017AD283EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prorotype_CopyConstructor", "Prorotype\Prorotype_CopyConstructor.csproj", "{BDAF8B57-F887-4754-957E-39017AD283EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
