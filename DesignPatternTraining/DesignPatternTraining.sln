@@ -37,6 +37,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factories", "Factories", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "19.PointExample\FactoryMethod.csproj", "{EEDE1C14-5693-45AE-8BE0-50F2EC1879F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousFactoryMethod", "AsynchronousFactoryMethod\AsynchronousFactoryMethod.csproj", "{A347AA7B-E565-4C9A-ACDB-3A2A3EFC5ED9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{EEDE1C14-5693-45AE-8BE0-50F2EC1879F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEDE1C14-5693-45AE-8BE0-50F2EC1879F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEDE1C14-5693-45AE-8BE0-50F2EC1879F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A347AA7B-E565-4C9A-ACDB-3A2A3EFC5ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A347AA7B-E565-4C9A-ACDB-3A2A3EFC5ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A347AA7B-E565-4C9A-ACDB-3A2A3EFC5ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A347AA7B-E565-4C9A-ACDB-3A2A3EFC5ED9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,6 +111,7 @@ Global
 		{2F2D3028-CEC2-4C30-A98C-7CE69A356EE4} = {CCA6B77B-DEAF-4CD2-8418-CEF32FFBE5B8}
 		{FD15F11E-4AC6-453B-A7D9-658FC5D35842} = {6A332E5A-4629-4FAF-8E9C-3F218154EEC3}
 		{EEDE1C14-5693-45AE-8BE0-50F2EC1879F2} = {FD15F11E-4AC6-453B-A7D9-658FC5D35842}
+		{A347AA7B-E565-4C9A-ACDB-3A2A3EFC5ED9} = {FD15F11E-4AC6-453B-A7D9-658FC5D35842}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7D5D5CF-BF42-4AA3-B580-8A9C9B38E28E}
