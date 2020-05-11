@@ -4,7 +4,8 @@ using static System.Console;
 namespace Prorotype
 {
 
-    public class Person // ICloneable, we will not use ICloneable because is never clear is it deep or shallow copy 
+    public class Person // ICloneable, we will not use ICloneable because is never clear is it deep or shallow copy , but this soulution
+    //also will be very rare because is rare recognized in .net world, is mainly from c++
     {
         public string[] Names;
         public Address Address;
