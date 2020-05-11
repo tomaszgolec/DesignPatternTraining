@@ -1,47 +1,35 @@
 ﻿using System;
+using static System.Console;
 
 namespace FactoryMethod
 {
 
     public class Point
     {
-        public enum CoordinateSystem
+        //factory method design pattern
+        public static Point NewCartesianPoint(double x, double y)
         {
-            Cartesian,
-            Polar
+            return new Point(x, y);
+        }
+
+        public static Point NewPolarPoint(double rho, double theta)
+        {
+            return new Point(rho*Math.Cos(theta),rho*Math.Sin(theta));
         }
 
         private double x, y;
-        /// <summary>
-        /// Because we don't know which parameter is x or y o theta or beta we must introduce explanation here :( 
-        /// </summary>
-        /// <param name="a">x if cartesian, rho if polar </param>
-        /// <param name="b"></param>
-        /// <param name="system"></param>
-        public Point(double a, double b, CoordinateSystem system =CoordinateSystem.Cartesian)
+
+        //is private now
+        private Point(double x, double y)
         {
-            switch (system)
-            {
-                case CoordinateSystem.Cartesian:
-                    x = a;
-                    y = b;
-                    break;
-                case CoordinateSystem.Polar:
-                    x = a * Math.Cos(b);
-                    y = a * Math.Sin(b);
-                    break;
-                default:
-                    throw new ArgumentOutOfRangeException(nameof(system), system, null);
-            }
+            this.x = x;
+            this.y = y;
         }
 
-        //because we don't have factory we cannot prepare different type of creating object
-        //like below for example
-        //public Point(double beta, double theta)
-        //{
-        //    different type of creation 
-        //}
-
+        public override string ToString()
+        {
+            return $"{nameof(x)}: {x}, {nameof(y)}: {y}";
+        }
     }
 
 
@@ -50,7 +38,11 @@ namespace FactoryMethod
    
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //this patter is just API improvement similarly to builder
+            var point = Point.NewPolarPoint(1.0, Math.PI / 2);
+
+            WriteLine(point);
+            ReadKey();
         }
     }
 }
