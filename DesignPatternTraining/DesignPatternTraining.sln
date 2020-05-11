@@ -49,6 +49,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prorotype_CopyConstructor", "Prorotype\Prorotype_CopyConstructor.csproj", "{BDAF8B57-F887-4754-957E-39017AD283EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype_CopyTroughSerialization", "Prototype_CopyTroughSerialization\Prototype_CopyTroughSerialization.csproj", "{452CA648-77D5-4A2A-ACA2-20C9406509B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +121,10 @@ Global
 		{BDAF8B57-F887-4754-957E-39017AD283EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDAF8B57-F887-4754-957E-39017AD283EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDAF8B57-F887-4754-957E-39017AD283EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{452CA648-77D5-4A2A-ACA2-20C9406509B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{452CA648-77D5-4A2A-ACA2-20C9406509B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{452CA648-77D5-4A2A-ACA2-20C9406509B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{452CA648-77D5-4A2A-ACA2-20C9406509B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,6 +149,7 @@ Global
 		{5685B0AE-E2E5-4576-BEBA-6B5994DFEFFF} = {FD15F11E-4AC6-453B-A7D9-658FC5D35842}
 		{2073A0D5-238D-49D4-B222-9530F6507BCA} = {6A332E5A-4629-4FAF-8E9C-3F218154EEC3}
 		{BDAF8B57-F887-4754-957E-39017AD283EE} = {2073A0D5-238D-49D4-B222-9530F6507BCA}
+		{452CA648-77D5-4A2A-ACA2-20C9406509B3} = {2073A0D5-238D-49D4-B222-9530F6507BCA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7D5D5CF-BF42-4AA3-B580-8A9C9B38E28E}
