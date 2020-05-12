@@ -1,6 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.CompilerServices;
 using MoreLinq;
 using static System.Console;
 
@@ -16,6 +21,24 @@ namespace AdapterPattern
             X = x;
             Y = y;
         }
+
+        protected bool Equals(Point other)
+        {
+            return X == other.X && Y == other.Y;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (ReferenceEquals(null, obj)) return false;
+            if (ReferenceEquals(this, obj)) return true;
+            if (obj.GetType() != this.GetType()) return false;
+            return Equals((Point) obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(X, Y);
+        }
     }
 
     public class Line
@@ -26,6 +49,24 @@ namespace AdapterPattern
         {
             Start = start;
             End = end;
+        }
+
+        protected bool Equals(Line other)
+        {
+            return Equals(Start, other.Start) && Equals(End, other.End);
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (ReferenceEquals(null, obj)) return false;
+            if (ReferenceEquals(this, obj)) return true;
+            if (obj.GetType() != this.GetType()) return false;
+            return Equals((Line) obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Start, End);
         }
     }
 
@@ -46,13 +87,23 @@ namespace AdapterPattern
         }
     }
 
-    public class LineToPointAdapter : Collection<Point>
+    public class LineToPointAdapter : IEnumerable<Point>
     {
         private static int count;
+        static Dictionary<int,List<Point>> cache = new Dictionary<int, List<Point>>();
 
+        private Line currentLine;
         public LineToPointAdapter(Line line)
         {
+            currentLine = line;
+            var hash = currentLine.GetHashCode();
+            
+            if (cache.ContainsKey(hash))
+                return;
+
             WriteLine($"{++count} Generating points for line [{line.Start.X},{line.Start.Y}]-[{line.End.X},{line.End.Y}]");
+
+            var points = new List<Point>();
 
             int left = Math.Min(line.Start.X, line.End.X);
             int right = Math.Max(line.Start.X, line.End.X);
@@ -65,16 +116,28 @@ namespace AdapterPattern
             {
                 for (int y = top; y <= bottom; ++y)
                 {
-                    Add(new Point(left, y));
+                    points.Add(new Point(left, y));
                 }
             }
             else if (dy == 0)
             {
                 for (int x = left; x <= right; ++x)
                 {
-                    Add(new Point(x, top));
+                    points.Add(new Point(x, top));
                 }
             }
+
+            cache.Add(hash,points);
+        }
+
+        public IEnumerator<Point> GetEnumerator()
+        {
+           return cache.GetValueOrDefault(currentLine.GetHashCode(), new List<Point>()).GetEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 
@@ -95,7 +158,9 @@ namespace AdapterPattern
         static void Main(string[] args)
         {
             Draw();
+            WriteLine("\n");
             Draw();
+            ReadKey();
         }
 
         private static void Draw()
