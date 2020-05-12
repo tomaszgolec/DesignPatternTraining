@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericValueAdapter", "Gene
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterInDependencyInjection", "AdpeterInDependencyInjection\AdapterInDependencyInjection.csproj", "{7E7F6DAA-AAC0-4413-AD28-BFCD8CA06112}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test5", "Test5\Test5.csproj", "{EC364539-8C52-4EBE-A6C0-03A93252E866}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{7E7F6DAA-AAC0-4413-AD28-BFCD8CA06112}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E7F6DAA-AAC0-4413-AD28-BFCD8CA06112}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E7F6DAA-AAC0-4413-AD28-BFCD8CA06112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC364539-8C52-4EBE-A6C0-03A93252E866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC364539-8C52-4EBE-A6C0-03A93252E866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC364539-8C52-4EBE-A6C0-03A93252E866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC364539-8C52-4EBE-A6C0-03A93252E866}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -191,6 +197,7 @@ Global
 		{A9D0B516-E5F4-4E10-9831-D4C76272F619} = {FD53C59F-DFC5-41D2-9BA6-A3EDD3420E4D}
 		{BBD76CD8-FFD1-4549-919C-7F793A6CC096} = {FD53C59F-DFC5-41D2-9BA6-A3EDD3420E4D}
 		{7E7F6DAA-AAC0-4413-AD28-BFCD8CA06112} = {FD53C59F-DFC5-41D2-9BA6-A3EDD3420E4D}
+		{EC364539-8C52-4EBE-A6C0-03A93252E866} = {FD53C59F-DFC5-41D2-9BA6-A3EDD3420E4D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7D5D5CF-BF42-4AA3-B580-8A9C9B38E28E}
