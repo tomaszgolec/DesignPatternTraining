@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test8", "Test8\Test8.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer_Via_The_Event_Keyword", "Observer_Via_The_Event_Keyword\Observer_Via_The_Event_Keyword.csproj", "{E7CC3855-AD2D-4867-82FF-C53F23C9B79B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeakEventPatternDotNetOld", "WeakEventPatternDotNetOld\WeakEventPatternDotNetOld.csproj", "{3887F1E6-7591-431B-AEF5-98E41CA54F11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -211,6 +213,10 @@ Global
 		{E7CC3855-AD2D-4867-82FF-C53F23C9B79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7CC3855-AD2D-4867-82FF-C53F23C9B79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7CC3855-AD2D-4867-82FF-C53F23C9B79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3887F1E6-7591-431B-AEF5-98E41CA54F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3887F1E6-7591-431B-AEF5-98E41CA54F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3887F1E6-7591-431B-AEF5-98E41CA54F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3887F1E6-7591-431B-AEF5-98E41CA54F11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -253,6 +259,7 @@ Global
 		{2E54B9AB-4752-4495-9FED-2A514E020FA2} = {6BF790C1-989C-4673-BB48-781C6DF7E1FE}
 		{8A5C52D5-2EB6-4B69-AF08-810FF7CF1CF9} = {6BF790C1-989C-4673-BB48-781C6DF7E1FE}
 		{E7CC3855-AD2D-4867-82FF-C53F23C9B79B} = {72325D83-B13E-4645-8A93-6CA091EF750E}
+		{3887F1E6-7591-431B-AEF5-98E41CA54F11} = {72325D83-B13E-4645-8A93-6CA091EF750E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7D5D5CF-BF42-4AA3-B580-8A9C9B38E28E}
