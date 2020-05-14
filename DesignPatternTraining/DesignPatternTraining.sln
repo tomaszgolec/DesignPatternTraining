@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer_Via_Special_Interf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INotifyPropertyChangedExample", "ObservableCollections\INotifyPropertyChangedExample.csproj", "{20B34B4F-1A9F-4F70-8D19-209B533247BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservableCollectionExample", "ObservableCollectionExample\ObservableCollectionExample.csproj", "{9F4BC077-7695-4127-BF51-EB9B356CC411}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{20B34B4F-1A9F-4F70-8D19-209B533247BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20B34B4F-1A9F-4F70-8D19-209B533247BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20B34B4F-1A9F-4F70-8D19-209B533247BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4BC077-7695-4127-BF51-EB9B356CC411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4BC077-7695-4127-BF51-EB9B356CC411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4BC077-7695-4127-BF51-EB9B356CC411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4BC077-7695-4127-BF51-EB9B356CC411}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -277,6 +283,7 @@ Global
 		{3D2A5AAB-30E5-46A5-BB49-0A4B0405E90F} = {72325D83-B13E-4645-8A93-6CA091EF750E}
 		{27FEE161-F4DB-4266-98E0-32DEC07253D5} = {3D2A5AAB-30E5-46A5-BB49-0A4B0405E90F}
 		{20B34B4F-1A9F-4F70-8D19-209B533247BE} = {3D2A5AAB-30E5-46A5-BB49-0A4B0405E90F}
+		{9F4BC077-7695-4127-BF51-EB9B356CC411} = {3D2A5AAB-30E5-46A5-BB49-0A4B0405E90F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7D5D5CF-BF42-4AA3-B580-8A9C9B38E28E}
