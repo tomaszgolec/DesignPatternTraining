@@ -145,7 +145,6 @@ namespace BidirectionalObserver
                 () => window.ProductName
             ))
             {
-
                 product.Name = "Smart Book";
                 window.ProductName = "really smart book";
 
