@@ -9,7 +9,7 @@ namespace PropertyDependencies
 
     public class PropertyNotificationSupport   : INotifyPropertyChanged
     {
-        // CanVote
+        // CanVote -> Age, Citizenship
         private readonly Dictionary<string,HashSet<string>> affectedBy
             = new Dictionary<string, HashSet<string>>();
 
