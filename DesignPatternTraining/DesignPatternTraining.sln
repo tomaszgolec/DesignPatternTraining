@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command_UndoOpertion", "Command_UndoOpertion\Command_UndoOpertion.csproj", "{1F4E0E9C-8838-4BE5-AC30-698DBD255B9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeCommand", "Composite Command\CompositeCommand.csproj", "{5FD92E2B-873F-48BB-AB45-61759CC3958E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -239,6 +241,10 @@ Global
 		{1F4E0E9C-8838-4BE5-AC30-698DBD255B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F4E0E9C-8838-4BE5-AC30-698DBD255B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F4E0E9C-8838-4BE5-AC30-698DBD255B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD92E2B-873F-48BB-AB45-61759CC3958E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD92E2B-873F-48BB-AB45-61759CC3958E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD92E2B-873F-48BB-AB45-61759CC3958E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD92E2B-873F-48BB-AB45-61759CC3958E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -287,6 +293,7 @@ Global
 		{BA867455-CF61-44B6-9759-25E3AC9DB83B} = {72325D83-B13E-4645-8A93-6CA091EF750E}
 		{09476814-794A-46A6-AF21-FDCC90860B05} = {BA867455-CF61-44B6-9759-25E3AC9DB83B}
 		{1F4E0E9C-8838-4BE5-AC30-698DBD255B9D} = {BA867455-CF61-44B6-9759-25E3AC9DB83B}
+		{5FD92E2B-873F-48BB-AB45-61759CC3958E} = {BA867455-CF61-44B6-9759-25E3AC9DB83B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7D5D5CF-BF42-4AA3-B580-8A9C9B38E28E}
