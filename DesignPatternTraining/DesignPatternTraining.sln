@@ -109,6 +109,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingExercise9_FacadeCodeE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype_EcplicitDeepCopyInteface", "Prototype_EcplicitDeepCopyInteface\Prototype_EcplicitDeepCopyInteface.csproj", "{D3CF5537-0C4E-4A8D-A0EE-ABE508B7EFEE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{2073A0D5-238D-49D4-B222-9530F6507BCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prorotype_CopyConstructor", "Prorotype\Prorotype_CopyConstructor.csproj", "{BDAF8B57-F887-4754-957E-39017AD283EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype_CopyTroughSerialization", "Prototype_CopyTroughSerialization\Prototype_CopyTroughSerialization.csproj", "{452CA648-77D5-4A2A-ACA2-20C9406509B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{9BC266B3-0560-4ABE-915B-632F5ACDEC52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{9499648A-9B3D-468B-AFF5-331125082E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonostatePattern", "MonostatePattern\MonostatePattern.csproj", "{D4EC1F57-FC55-405C-BD1A-550C16D13E01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
