@@ -105,6 +105,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{C57408
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{E4CFCCC2-41C5-4BBF-B1A2-3B31D57C4994}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingExercise9_FacadeCodeExercise", "CodingExercise9_FacadeCodeExercise\CodingExercise9_FacadeCodeExercise.csproj", "{B8FE89A7-DA63-4B61-BD76-DDD934CA4F71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -259,6 +261,10 @@ Global
 		{E4CFCCC2-41C5-4BBF-B1A2-3B31D57C4994}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4CFCCC2-41C5-4BBF-B1A2-3B31D57C4994}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4CFCCC2-41C5-4BBF-B1A2-3B31D57C4994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8FE89A7-DA63-4B61-BD76-DDD934CA4F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FE89A7-DA63-4B61-BD76-DDD934CA4F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FE89A7-DA63-4B61-BD76-DDD934CA4F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FE89A7-DA63-4B61-BD76-DDD934CA4F71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -311,6 +317,7 @@ Global
 		{09F4C0BC-301C-45AE-AA66-0CAC8B56F4C1} = {BA867455-CF61-44B6-9759-25E3AC9DB83B}
 		{C5740846-5528-45D4-BB15-B5D1D06E4B85} = {503DEFDC-965E-4046-B821-E4A8ED42CC48}
 		{E4CFCCC2-41C5-4BBF-B1A2-3B31D57C4994} = {C5740846-5528-45D4-BB15-B5D1D06E4B85}
+		{B8FE89A7-DA63-4B61-BD76-DDD934CA4F71} = {C5740846-5528-45D4-BB15-B5D1D06E4B85}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7D5D5CF-BF42-4AA3-B580-8A9C9B38E28E}
