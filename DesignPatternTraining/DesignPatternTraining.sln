@@ -175,9 +175,65 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype_EcplicitDeepCopyI
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{9BC266B3-0560-4ABE-915B-632F5ACDEC52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{9499648A-9B3D-468B-AFF5-331125082E2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{9499648A-9B3D-468B-AFF5-331125082E2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonostatePattern", "MonostatePattern\MonostatePattern.csproj", "{D4EC1F57-FC55-405C-BD1A-550C16D13E01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonostatePattern", "MonostatePattern\MonostatePattern.csproj", "{D4EC1F57-FC55-405C-BD1A-550C16D13E01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{FD53C59F-DFC5-41D2-9BA6-A3EDD3420E4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{A9D0B516-E5F4-4E10-9831-D4C76272F619}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericValueAdapter", "GenericValueAdapter\GenericValueAdapter.csproj", "{BBD76CD8-FFD1-4549-919C-7F793A6CC096}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterInDependencyInjection", "AdpeterInDependencyInjection\AdapterInDependencyInjection.csproj", "{7E7F6DAA-AAC0-4413-AD28-BFCD8CA06112}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test5", "Test5\Test5.csproj", "{EC364539-8C52-4EBE-A6C0-03A93252E866}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge", "Bridge", "{1774BF31-0D4B-4946-8E1A-04874A74DAC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{9D03C459-10E0-4342-81E3-317AEB5BDC15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test7", "Test7\Test7.csproj", "{23B6FD38-C041-4EE9-B998-2681A431F0A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{6BF790C1-989C-4673-BB48-781C6DF7E1FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern_GeometricShapes", "CompositePattern\CompositePattern_GeometricShapes.csproj", "{13998DAE-05F9-4628-823F-228CAF6C8CF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePatter_NeuralNetworks", "CompositePatter_NeuralNetworks\CompositePatter_NeuralNetworks.csproj", "{176894CE-64D3-4042-A72D-446AD3C44DC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeSpecification", "CompositeSpecification\CompositeSpecification.csproj", "{2E54B9AB-4752-4495-9FED-2A514E020FA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test8", "Test8\Test8.csproj", "{8A5C52D5-2EB6-4B69-AF08-810FF7CF1CF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethod", "TemplateMethod", "{06F0347B-07FC-4C57-9DE9-51BED1A8C08A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{C5A0ECEA-125E-496D-A84D-50CCE2A9FF30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalTemplateMethod", "FunctionalTemplateMethod\FunctionalTemplateMethod.csproj", "{1A2E8B18-EA3B-4942-985D-41F00508804D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingExercice23", "CodingExercice23\CodingExercice23.csproj", "{8F14A124-7D4C-4E7D-9A7F-5D8EBEA36D6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{BA867455-CF61-44B6-9759-25E3AC9DB83B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{09476814-794A-46A6-AF21-FDCC90860B05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command_UndoOpertion", "Command_UndoOpertion\Command_UndoOpertion.csproj", "{1F4E0E9C-8838-4BE5-AC30-698DBD255B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeCommand", "Composite Command\CompositeCommand.csproj", "{5FD92E2B-873F-48BB-AB45-61759CC3958E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingExercise_Command", "CodingExercise_Command\CodingExercise_Command.csproj", "{09F4C0BC-301C-45AE-AA66-0CAC8B56F4C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{C5740846-5528-45D4-BB15-B5D1D06E4B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{E4CFCCC2-41C5-4BBF-B1A2-3B31D57C4994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingExercise9_FacadeCodeExercise", "CodingExercise9_FacadeCodeExercise\CodingExercise9_FacadeCodeExercise.csproj", "{B8FE89A7-DA63-4B61-BD76-DDD934CA4F71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype_EcplicitDeepCopyInteface", "Prototype_EcplicitDeepCopyInteface\Prototype_EcplicitDeepCopyInteface.csproj", "{D3CF5537-0C4E-4A8D-A0EE-ABE508B7EFEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Per_thread_singleton", "Per_thread_singleton\Per_thread_singleton.csproj", "{D5F90A68-3922-4350-917B-44A39E589804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbientContext", "AmbientContext\AmbientContext.csproj", "{6DEA80CD-CA0B-45B6-A61F-C8421093C1AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -341,6 +397,14 @@ Global
 		{D3CF5537-0C4E-4A8D-A0EE-ABE508B7EFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3CF5537-0C4E-4A8D-A0EE-ABE508B7EFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3CF5537-0C4E-4A8D-A0EE-ABE508B7EFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F90A68-3922-4350-917B-44A39E589804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F90A68-3922-4350-917B-44A39E589804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F90A68-3922-4350-917B-44A39E589804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F90A68-3922-4350-917B-44A39E589804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DEA80CD-CA0B-45B6-A61F-C8421093C1AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEA80CD-CA0B-45B6-A61F-C8421093C1AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEA80CD-CA0B-45B6-A61F-C8421093C1AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DEA80CD-CA0B-45B6-A61F-C8421093C1AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -395,6 +459,8 @@ Global
 		{E4CFCCC2-41C5-4BBF-B1A2-3B31D57C4994} = {C5740846-5528-45D4-BB15-B5D1D06E4B85}
 		{B8FE89A7-DA63-4B61-BD76-DDD934CA4F71} = {C5740846-5528-45D4-BB15-B5D1D06E4B85}
 		{D3CF5537-0C4E-4A8D-A0EE-ABE508B7EFEE} = {2073A0D5-238D-49D4-B222-9530F6507BCA}
+		{D5F90A68-3922-4350-917B-44A39E589804} = {9BC266B3-0560-4ABE-915B-632F5ACDEC52}
+		{6DEA80CD-CA0B-45B6-A61F-C8421093C1AD} = {9BC266B3-0560-4ABE-915B-632F5ACDEC52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7D5D5CF-BF42-4AA3-B580-8A9C9B38E28E}
