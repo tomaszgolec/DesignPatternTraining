@@ -155,6 +155,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatingUserNamesNew", "Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFormatting", "TextFormatting\TextFormatting.csproj", "{F5687665-9C8A-408A-A8C0-E42B2546FFF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingExercise10", "CodingExercise10\CodingExercise10.csproj", "{66A41251-14F7-440E-A73C-74F7E815B7AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -397,6 +399,10 @@ Global
 		{F5687665-9C8A-408A-A8C0-E42B2546FFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5687665-9C8A-408A-A8C0-E42B2546FFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5687665-9C8A-408A-A8C0-E42B2546FFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A41251-14F7-440E-A73C-74F7E815B7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A41251-14F7-440E-A73C-74F7E815B7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A41251-14F7-440E-A73C-74F7E815B7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A41251-14F7-440E-A73C-74F7E815B7AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -474,6 +480,7 @@ Global
 		{1900F3E4-BEF6-4133-9606-962B8E7BC51C} = {503DEFDC-965E-4046-B821-E4A8ED42CC48}
 		{A46C1F05-845A-4CCF-9543-B98FDB2E0EF7} = {1900F3E4-BEF6-4133-9606-962B8E7BC51C}
 		{F5687665-9C8A-408A-A8C0-E42B2546FFF3} = {1900F3E4-BEF6-4133-9606-962B8E7BC51C}
+		{66A41251-14F7-440E-A73C-74F7E815B7AD} = {1900F3E4-BEF6-4133-9606-962B8E7BC51C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7D5D5CF-BF42-4AA3-B580-8A9C9B38E28E}
