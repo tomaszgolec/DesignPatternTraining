@@ -151,17 +151,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmbientContext", "AmbientCo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flyweight", "Flyweight", "{1900F3E4-BEF6-4133-9606-962B8E7BC51C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatingUserNamesNew", "RepeatingUserNamesNew\RepeatingUserNamesNew.csproj", "{A46C1F05-845A-4CCF-9543-B98FDB2E0EF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepeatingUserNamesNew", "RepeatingUserNamesNew\RepeatingUserNamesNew.csproj", "{A46C1F05-845A-4CCF-9543-B98FDB2E0EF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFormatting", "TextFormatting\TextFormatting.csproj", "{F5687665-9C8A-408A-A8C0-E42B2546FFF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextFormatting", "TextFormatting\TextFormatting.csproj", "{F5687665-9C8A-408A-A8C0-E42B2546FFF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingExercise10", "CodingExercise10\CodingExercise10.csproj", "{66A41251-14F7-440E-A73C-74F7E815B7AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingExercise10", "CodingExercise10\CodingExercise10.csproj", "{66A41251-14F7-440E-A73C-74F7E815B7AD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{5D6A8596-BA62-40A8-9E92-60033683E16E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtectionProxy", "ProtectionProxy\ProtectionProxy.csproj", "{A0F4B378-1D74-47D5-B6A1-BD5203ADEC26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtectionProxy", "ProtectionProxy\ProtectionProxy.csproj", "{A0F4B378-1D74-47D5-B6A1-BD5203ADEC26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Property_Proxy", "Property Proxy\Property_Proxy.csproj", "{7847F094-5B18-478C-BD7C-BF80D0EA94F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Property_Proxy", "Property Proxy\Property_Proxy.csproj", "{7847F094-5B18-478C-BD7C-BF80D0EA94F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueProxy", "ValueProxy\ValueProxy.csproj", "{7F054D71-3539-4B10-B517-5BFAFE9F3943}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -417,6 +419,10 @@ Global
 		{7847F094-5B18-478C-BD7C-BF80D0EA94F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7847F094-5B18-478C-BD7C-BF80D0EA94F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7847F094-5B18-478C-BD7C-BF80D0EA94F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F054D71-3539-4B10-B517-5BFAFE9F3943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F054D71-3539-4B10-B517-5BFAFE9F3943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F054D71-3539-4B10-B517-5BFAFE9F3943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F054D71-3539-4B10-B517-5BFAFE9F3943}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -498,6 +504,7 @@ Global
 		{5D6A8596-BA62-40A8-9E92-60033683E16E} = {503DEFDC-965E-4046-B821-E4A8ED42CC48}
 		{A0F4B378-1D74-47D5-B6A1-BD5203ADEC26} = {5D6A8596-BA62-40A8-9E92-60033683E16E}
 		{7847F094-5B18-478C-BD7C-BF80D0EA94F5} = {5D6A8596-BA62-40A8-9E92-60033683E16E}
+		{7F054D71-3539-4B10-B517-5BFAFE9F3943} = {5D6A8596-BA62-40A8-9E92-60033683E16E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7D5D5CF-BF42-4AA3-B580-8A9C9B38E28E}
