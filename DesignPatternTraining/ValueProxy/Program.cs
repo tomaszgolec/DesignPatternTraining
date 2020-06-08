@@ -5,7 +5,7 @@ using static System.Console;
 namespace ValueProxy
 {
     [DebuggerDisplay("{value*100.0f}%")]
-    public struct Percentage
+    public struct Percentage : IEquatable<Percentage>
     {
         private readonly float value;
 
@@ -27,6 +27,31 @@ namespace ValueProxy
         public override string ToString()
         {
             return $"{value * 100}%";
+        }
+
+        public bool Equals(Percentage other)
+        {
+            return value.Equals(other.value);
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj is Percentage other && Equals(other);
+        }
+
+        public override int GetHashCode()
+        {
+            return value.GetHashCode();
+        }
+
+        public static bool operator ==(Percentage left, Percentage right)
+        {
+            return left.Equals(right);
+        }
+
+        public static bool operator !=(Percentage left, Percentage right)
+        {
+            return !left.Equals(right);
         }
     }
 
