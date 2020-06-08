@@ -171,6 +171,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeProxyWithArrayBack
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProxyForLogging", "DynamicProxyForLogging\DynamicProxyForLogging.csproj", "{5A4A7759-83C0-4F79-94B7-649EEF9A67A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\ViewModel.csproj", "{BA690DEE-FEC1-4AD4-96AE-C01F046E6C35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -441,6 +443,10 @@ Global
 		{5A4A7759-83C0-4F79-94B7-649EEF9A67A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A4A7759-83C0-4F79-94B7-649EEF9A67A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A4A7759-83C0-4F79-94B7-649EEF9A67A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA690DEE-FEC1-4AD4-96AE-C01F046E6C35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA690DEE-FEC1-4AD4-96AE-C01F046E6C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA690DEE-FEC1-4AD4-96AE-C01F046E6C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA690DEE-FEC1-4AD4-96AE-C01F046E6C35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -526,6 +532,7 @@ Global
 		{08ED39B7-4997-4BA0-9D2D-07FA5E84042C} = {5D6A8596-BA62-40A8-9E92-60033683E16E}
 		{DF20BF77-5AC0-4E3A-BE93-F4BE813099FC} = {5D6A8596-BA62-40A8-9E92-60033683E16E}
 		{5A4A7759-83C0-4F79-94B7-649EEF9A67A7} = {5D6A8596-BA62-40A8-9E92-60033683E16E}
+		{BA690DEE-FEC1-4AD4-96AE-C01F046E6C35} = {5D6A8596-BA62-40A8-9E92-60033683E16E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7D5D5CF-BF42-4AA3-B580-8A9C9B38E28E}
